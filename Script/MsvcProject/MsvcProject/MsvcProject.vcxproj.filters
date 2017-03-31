@@ -350,9 +350,6 @@
     <ClCompile Include="..\..\..\Source\Version.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Source\GSTweet.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\Source\Screenshot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -685,9 +682,6 @@
     <ClInclude Include="..\..\..\Source\GSDebug.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Source\GSTweet.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\Source\Screenshot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -708,6 +702,7 @@
     <Library Include="..\..\..\..\amjulib\Source\SoundBass\Bass2.3\Win\bass.lib" />
     <Library Include="..\..\..\..\amjulib\Source\SoundBass\Bass2.3\Win\bassmidi.lib" />
     <Library Include="..\..\..\..\amjulib\3rdPartyLibs\Curl\Win32\lib\libcurl.lib" />
+    <Library Include="..\..\..\..\amjulib\3rdPartyLibs\GLUT\glut32.lib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\Source\main_iphone.mm" />
