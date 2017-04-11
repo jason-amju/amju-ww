@@ -55,8 +55,10 @@ void GSText::Update()
     }
   }
 
-  //float b = sin(m_timer * 0.25f) * 0.25f + 0.5f;
-  //AmjuGL::SetClearColour(Colour(0, 0, 0, 1)); //b * 0.25f, 1.0f));
+  if (m_gui)
+  {
+    m_gui->Update();
+  }
 }
 
 void GSText::Draw()
