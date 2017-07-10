@@ -101,7 +101,7 @@ void Viewport::Draw()
   for (auto it = gos->begin(); it != gos->end(); ++it)
   {
     GameObject* go = it->second;
-    DrawAABB(go->GetAABB());
+//    DrawAABB(go->GetAABB());
   }
   PopColour();
   AmjuGL::PopAttrib();
