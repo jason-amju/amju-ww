@@ -82,7 +82,7 @@ PSceneNode MyTextMaker::Decorate(PSceneNode p)
 
   p->SetIsLit(true);
   decorator->AddChild(p);
-  decorator->UpdateBoundingVol();
+  decorator->CalcBoundingVol();
 
   return decorator;
 }

@@ -190,7 +190,7 @@ void GSText::CreateText(const std::string& text)
 
   SceneNode* parent = new SceneNode;
   parent->AddChild(node);
-  parent->UpdateBoundingVol();
+  parent->CalcBoundingVol();
   
   SceneGraph* g = GetTextSceneGraph();
   g->Clear();

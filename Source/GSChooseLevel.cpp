@@ -70,7 +70,7 @@ void GSChooseLevel::OnActive()
 
   SceneNode* parent = new SceneNode;
   parent->AddChild(rot);
-  parent->UpdateBoundingVol(); //SetAABB(aabb);
+  parent->CalcBoundingVol(); //SetAABB(aabb);
   GetTextSceneGraph()->SetRootNode(SceneGraph::AMJU_OPAQUE, parent);
 
   m_gui = WWLoadGui("gui-chooselevel.txt");
