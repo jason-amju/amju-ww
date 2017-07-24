@@ -13,7 +13,7 @@ This game was originally called Amju Wibble Wobble, which is why this repo is ca
 
 ![Screenshot](Docs/windows-build-1.png)
 
-2. Go to amju-ww/Script/MsvcProject and open AmjuRainbowDrop-MsvcProject.sln. Don't retarget if you're asked, there are a couple of things to sort out for MSVC 2017.
+2. Go to amju-ww/Script/MsvcProject and open AmjuRainbowDrop-MsvcProject.sln in <b>Microsoft Visual Studio 2017</b>.
 
 ![Screenshot](Docs/windows-build-2.png)
 
