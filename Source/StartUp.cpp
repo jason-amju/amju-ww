@@ -244,7 +244,7 @@ void StartUpAfterCreateWindow()
   rm->AddLoader("wav", BinaryResourceLoader);
 
 #if defined(WIN32) || defined(MACOSX)
-    TheCursorManager::Instance()->Load(Vec2f(0.025f, -0.08f)); // hotspot position
+    TheCursorManager::Instance()->Load("hand.png", Vec2f(0.025f, -0.08f)); // hotspot position
 #endif
     
   TheHud::Instance()->Load();
