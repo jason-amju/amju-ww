@@ -1,7 +1,9 @@
 // bonus effect
 // v
 1
-// image - TODO TEMP TEST
+// Name
+bonus-effect
+// image
 sparkle1.png
 // size
 5.0
